@@ -60,7 +60,7 @@ function App() {
     event.preventDefault()
     const message = `مرحبًا، أريد الاستفسار عن خدمات عيادات بدر.%0Aالاسم: ${encodeURIComponent(form.name)}%0Aرقم التواصل: ${encodeURIComponent(form.phone)}%0Aنوع الاستفسار: ${encodeURIComponent(form.service)}`
     // Opens WhatsApp with a prefilled message only; it does not submit or store patient information.
-    window.open(`https://wa.me/?text=${message}`, '_blank', 'noopener,noreferrer')
+    window.open(`https://wa.me/201274991103/?text=${message}`, '_blank', 'noopener,noreferrer')
     setNotice('تم تجهيز رسالة الاستفسار. أرسلها من واتساب بعد مراجعتها.')
   }
 
